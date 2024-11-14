@@ -2,7 +2,6 @@ package gui;
 
 import java.util.Scanner;
 
-import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
 public class StreamingThread implements Runnable {
