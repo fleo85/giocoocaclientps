@@ -46,9 +46,11 @@ public class GiocoOcaWindowListener implements ActionListener {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 				JOptionPane.showMessageDialog(this.view, "Impossibile connettersi");
+				return;
 			} catch (NumberFormatException e2) {
 				e2.printStackTrace();
 				JOptionPane.showMessageDialog(this.view, "Il numero di porta non è corretto");
+				return;
 			}
 			connected = true;
 			transmitting = false;
