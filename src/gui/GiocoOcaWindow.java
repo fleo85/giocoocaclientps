@@ -82,7 +82,7 @@ public class GiocoOcaWindow extends JFrame {
 		if (caselle == null) {
 			this.griglia = null;
 			centerPanel.setLayout(new FlowLayout(FlowLayout.CENTER));
-			centerPanel.add(new JLabel("Clicca sul pulsante load per caricare la mappa"));
+			centerPanel.add(new JLabel("Inserire una lista di giocatori separata da virgola ed avviare la simulazione"));
 		} else {
 			this.griglia = new HashMap<String, Casella>();
 			centerPanel.setLayout(new GridLayout(1, caselle.size()));
